@@ -152,7 +152,7 @@ if us == "1":
     botnet()
     
 if us == "2":
-    bots = 6
+    bots = input("Потоки>")
     os.system(dl)
     print ("")
     print ("При атаке потоками есть шанс словить перегруз сети!")
