@@ -22,12 +22,12 @@ logo = f"""
 
 if platform.system() == "Windows": 
     os.system("title [+] LIKROOT")
-    st = "python LIKROOT.py"
+    st = "python LIKSNOS.py"
     dl = "cls"
     os.system("cls")
 else:
     dl = "clear"
-    st = "python3 LIKROOT.py"
+    st = "python3 LIKSNOS.py"
     os.system("clear")
 
 
